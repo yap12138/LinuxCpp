@@ -67,7 +67,6 @@ void * consumer(void * arg)
 	return NULL;
 }
 
-
 /*
 执行顺序为cumer1 -> cumer2 -> proc。即为调用的反顺序，函数压栈，最后进的先调用。
 消费完所有资源就退出
