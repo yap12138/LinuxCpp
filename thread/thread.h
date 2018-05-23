@@ -38,36 +38,3 @@ public:
 private:
 	id _id;
 };
-
-
-
-class condition;
-
-class mutex
-{
-public:
-	mutex();
-	~mutex();
-
-	bool lock();
-	bool unlock();
-
-private:
-	friend class condition;
-
-	pthread_mutex_t _mutex;
-};
-
-class condition
-{
-public:
-	condition();
-	~condition();
-
-	bool signal();
-	bool broadcast();	//Ïàµ±ÓÚnotifyall
-	bool wait(mutex& lock);
-
-private:
-	pthread_cond_t _cond;
-};

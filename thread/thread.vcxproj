@@ -63,9 +63,13 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="condition.cpp" />
+    <ClCompile Include="mutex.cpp" />
     <ClCompile Include="thread.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="condition.h" />
+    <ClInclude Include="mutex.h" />
     <ClInclude Include="thread.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

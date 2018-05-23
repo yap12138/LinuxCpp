@@ -2,6 +2,8 @@
 #include <queue>
 #include <unistd.h>
 #include "../thread/thread.h"
+#include "../thread/condition.h"
+#include "../thread/mutex.h"
 
 using std::queue;
 
