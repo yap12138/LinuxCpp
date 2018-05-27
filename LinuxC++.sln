@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "producer-consumer", "produc
 		{CEAE1167-6E36-4CB0-B605-36D1F0EB356F} = {CEAE1167-6E36-4CB0-B605-36D1F0EB356F}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipc", "ipc\ipc.vcxproj", "{267B1701-C141-4B15-AE1E-441C95A2FDAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -61,6 +63,18 @@ Global
 		{70BC014C-FD0A-4800-BEAC-212DEDCB3B56}.Release|x64.Build.0 = Release|x64
 		{70BC014C-FD0A-4800-BEAC-212DEDCB3B56}.Release|x86.ActiveCfg = Release|x86
 		{70BC014C-FD0A-4800-BEAC-212DEDCB3B56}.Release|x86.Build.0 = Release|x86
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|ARM.Build.0 = Debug|ARM
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|x64.ActiveCfg = Debug|x64
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|x64.Build.0 = Debug|x64
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|x86.ActiveCfg = Debug|x86
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Debug|x86.Build.0 = Debug|x86
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|ARM.ActiveCfg = Release|ARM
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|ARM.Build.0 = Release|ARM
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|x64.ActiveCfg = Release|x64
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|x64.Build.0 = Release|x64
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|x86.ActiveCfg = Release|x86
+		{267B1701-C141-4B15-AE1E-441C95A2FDAB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
