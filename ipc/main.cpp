@@ -9,6 +9,6 @@ int main()
 	//printf("return 0\n");
 	//getchar();
 	//hogason::fork_double();
-
+	hogason::ipc_msg_client();
     return 0;
 }

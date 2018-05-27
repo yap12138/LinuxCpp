@@ -1,6 +1,7 @@
 #pragma once
 
-namespace hogason {
+namespace hogason 
+{
 	/*无名管道*/
 	int ipc_pipe();
 
@@ -9,4 +10,14 @@ namespace hogason {
 
 	/*命名管道 read端*/
 	int ipc_read_fifo();
+
+	namespace sig
+	{
+		/*信号发送*/
+		void sig_send();
+	}
+
+	void ipc_msg_server();
+
+	void ipc_msg_client();
 }
